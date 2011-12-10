@@ -3,11 +3,9 @@
 
 import logging
 from brubeck.request_handling import Brubeck, WebMessageHandler
-from brubeck.request_handling import Brubeck
-from brubeck.models import AutoAPIBase, DictQueryset
+from brubeck.request_handling import Brubeck, AutoAPIBase
+from brubeck.queryset import DictQueryset
 from brubeck.templating import Jinja2Rendering, load_jinja2_env
-
-from queries import init_db_conn
 
 
 from dictshield.document import Document
